@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5f7e824-b109-43f7-a4a2-889380c2054c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/redux/accessTokenSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/redux/accessTokenSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/redux/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/redux/userSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/redux/userSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api-call/addItemToPlaylist.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api-call/addPlaylistData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api-call/fetchTracksData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api-call/fetchUserData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Playlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Playlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/trackscontainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tracksindex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CreatePlaylist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CreatePlaylist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="284NrWT4AC05t3lvecyz7sSRQFu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5f7e824-b109-43f7-a4a2-889380c2054c" name="Changes" comment="" />
+      <created>1650472098782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650472098782</updated>
+    </task>
+    <servers />
+  </component>
+</project>
