@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from 'axios'
 
 export type Params = {
     title: string,
@@ -43,13 +43,13 @@ export type ResponsePlaylist = {
     },
 }
 
-export const addPlaylistData = async (accessToken: string, userID: string, playlistData: Params): Promise<ResponsePlaylist> => {
+export const AddPlaylistData = async (accessToken: string, userID: string, addPlaylistData: Params): Promise<ResponsePlaylist> => {
     const header = {
         Authorization: `Bearer ${accessToken}` // set access token in header
     }
-    const bodyParams = { // body params for add playlist
-        name: playlistData.title,
-        description: playlistData.description,
+    const bodyParams = {
+        name: addPlaylistData.title,
+        description: addPlaylistData.description,
         collaborative: false,
         public: false
     }

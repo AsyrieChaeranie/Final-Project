@@ -1,10 +1,10 @@
-import axios from "axios";
+import axios from 'axios';
 
 export type ItemParams = {
     uris: string[]
 }
 
-export interface ResponseAddItemToPlaylist {
+export interface ResponseAddSongData {
     data: Data
     status: number
     statusText: string
@@ -54,7 +54,7 @@ export interface Request { }
 
 
 
-export const addItemToPlaylist = async (accessToken: string, playlist_id: string, itemParams: ItemParams): Promise<ResponseAddItemToPlaylist> => {
+export const AddSongData = async (accessToken: string, playlist_id: string, itemParams: ItemParams): Promise<ResponseAddSongData> => {
     const header = {
         Authorization: `Bearer ${accessToken}` // set access token in header
     }

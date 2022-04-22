@@ -57,7 +57,7 @@ export interface Artist2 {
   uri: string
 }
 
-export const fetchTracksData = async (query: string, accessToken: string): Promise<ResponseTracks> => {
+export const fetchSong = async (query: string, accessToken: string): Promise<ResponseTracks> => {
     const data = await axios //get tracks data
         .get(
             `https://api.spotify.com/v1/search?q=${query}&type=track&access_token=${accessToken}`

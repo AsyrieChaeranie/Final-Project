@@ -13,9 +13,9 @@ const Login = () => {
 
     return (
         <>
-            <a href={url}><Button  size="large" variant="contained" color="primary" startIcon={<LoginIcon />}> LOGIN </Button></a>
+            <a href={url}><Button size="large" variant="contained" color="primary" startIcon={<LoginIcon />}> LOGIN </Button></a>
         </>
-    )
-}
+    );
+};
 
 export default Login;

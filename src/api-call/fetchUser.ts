@@ -21,7 +21,7 @@ export interface Image {
     width: any
 }
 
-export const fetchUserData = async (accessToken: string): Promise<ResponseUser> => {
+export const fetchUser = async (accessToken: string): Promise<ResponseUser> => {
     const data = await axios // get user data
         .get(
             `https://api.spotify.com/v1/me?access_token=${accessToken}`

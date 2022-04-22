@@ -2,8 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import SaveAltIcon from '@mui/icons-material/SaveAlt';
 
-
-const Playlist = ({ hanldeAddPlaylist, handleAddSubmit, addPlaylistData }) => {
+const Playlist = ({hanldeAddPlaylist, handleAddSubmit, addPlaylistData}) => {
     return (
         <div className="playlistform">
             <h2>Create Playlist</h2>
@@ -20,7 +19,7 @@ const Playlist = ({ hanldeAddPlaylist, handleAddSubmit, addPlaylistData }) => {
                 <br></br>
             </form>
         </div>
-    )
-}
+    );
+};
 
 export default Playlist;

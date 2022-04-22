@@ -1,4 +1,4 @@
-import SongCard from './trackscontainer';
+import SongCard from './trackscontainer.tsx';
 
 const Songs = ({mergedTracks, handleSelect}) => {
   return mergedTracks.map((track) => {

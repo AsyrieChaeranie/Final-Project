@@ -1,7 +1,7 @@
-import { createSlice } from "@reduxjs/toolkit";
+import {createSlice} from '@reduxjs/toolkit';
 
 export const accessTokenSlice = createSlice({
-  name: "setAccessToken",
+  name: 'setAccessToken',
   initialState: {
     value: undefined
   },
@@ -10,7 +10,7 @@ export const accessTokenSlice = createSlice({
       state.value = action.payload;
     }
   }
-})
+});
 
-export const { setAccessToken } = accessTokenSlice.actions;
+export const {setAccessToken} = accessTokenSlice.actions;
 export default accessTokenSlice.reducer;
